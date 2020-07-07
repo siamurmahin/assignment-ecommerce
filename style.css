@@ -1,9 +1,19 @@
-.container{
-    margin-bottom: 100px;
+.navbar{
+    border-radius: 10px;
+
 }
-.car-bg{
+.container{
+    margin-bottom: 20px;
+}
+.car-bg, .subscribe-call{
     background-color: #FDE9E8;
     border-radius: 10px;
+}
+.subscribe-call{
+    height: 300px;
+}
+.subscribe-call h6{
+    color: gray;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -16,7 +26,36 @@
     background-image: linear-gradient(to bottom,#f33f8d 0%, rgba(231, 36, 199, 0.856) 100%);
     border: none;
     color: white;
-    padding: 8px 25px;
+    padding: 7px 22px;
     border-radius: 10px;
     cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding:10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient(to bottom,orange 40%, rgb(243, 185, 78)70%  );
+    
+}
+.cat2{
+    background-image: linear-gradient(to bottom,rgb(233, 73, 227) 30%, rgb(247, 39, 240) 70%);
+ 
+}
+.cat3{
+    background-image: linear-gradient(to bottom, rgb(38, 38, 245) 30%, rgb(27, 27, 221) 70%);
+
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+}
+footer{
+    text-align: center;
 }
